@@ -237,6 +237,28 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
+  #scrollup-top-button {
+    background-color: var(--black);
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    bottom: 30%;
+    left: 70%;
+    transition: background-color .3s,
+    opacity .5s, visibility .5s;
+    z-index: 1000;
+  }
+
+  #scrollup-top-button i {
+    font-size: 25px;
+    color: #fff;
+  }
+
   #card-img {
     width: auto; 
     height: 25%;
